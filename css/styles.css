@@ -1,0 +1,46 @@
+body {
+  background-color: #DCD7C9;
+}
+hr {
+  border: none;
+  border-top: 8px dotted #3F4E4F;
+  width: 20%;
+}
+h1 {
+  color: #2C3639;
+
+}
+h3 {
+  color: #2C3639;
+  text-shadow: 1px 1px 10px black
+}
+li {
+  font-family:Ink Free;
+  font-size: 14px
+}
+a:hover {
+  color:#704F4F;
+}
+
+.album_img {
+  border-radius: 100%;
+  height: 200px;
+}
+.bio {
+  font-family: Copperplate Gothic Light;
+  font-size: 18px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.logoheader {
+  display: block;
+  height: 100px;
+}
+.text_center {
+  text-align: center;
+}
+.track:hover {
+  font-size: 20px
+}
