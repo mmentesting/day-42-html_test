@@ -2,10 +2,10 @@ body {
   background-color: #313131 ;
   color: #CA3E47;
   font-family: Rajdhani, sans-serif;
-  font-size: 1.2rem ;
+  font-size: 1.2rem;
 }
 #div_header {
-  width: 45%;
+  width: 50%;
   margin: 2% auto 0;
   text-align: center;
 }
@@ -35,17 +35,20 @@ h2 {
 #div_albums p {
   display: inline-block;
 }
+#div_singles {
+    font-size: 1.2rem;
+}
 #div_album_tracks {
   height: 700px;
   width: 50%;
   margin: auto;
 }
 .div_bleed {
-  width: 45%;
+  width: 50%;
   float: left;
 }
 .div_safe {
-  width: 45%;
+  width: 50%;
   float: right;
 }
 h3, h4 {
