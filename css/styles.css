@@ -1,0 +1,118 @@
+body {
+  background-color: #313131 ;
+  color: #CA3E47;
+  font-family: Rajdhani, sans-serif;
+  font-size: 1.2rem ;
+}
+#div_header {
+  width: 45%;
+  margin: 2% auto 0;
+  text-align: center;
+}
+.header_logo {
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+.header_bio {
+  width: 45%;
+  margin: auto;
+  text-align: justify;
+}
+hr {
+  border: none;
+  border-top: 0.25rem dashed silver;
+  width: 25%;
+}
+h2 {
+  font-family: Almendra, serif;
+}
+#div_albums img {
+  height:100px;
+  border: solid #525252;
+  margin-right: 1%;
+}
+#div_albums p {
+  display: inline-block;
+}
+#div_album_tracks {
+  height: 700px;
+  width: 50%;
+  margin: auto;
+}
+.div_bleed {
+  width: 45%;
+  float: left;
+}
+.div_safe {
+  width: 45%;
+  float: right;
+}
+h3, h4 {
+  background-color: #525252;
+  text-align: center;
+}
+#div_album_tracks img {
+  border: solid #525252;
+  border-radius: 100%;
+  height: 200px;
+  margin-left: 22.5%;
+}
+#div_album_tracks li {
+  font-family: "Amatic SC", cursive;
+  color: white;
+}
+a:link {
+  color: white;
+}
+a:visited{
+  color: silver;
+}
+a:hover {
+  font-size: 1.3rem;
+  color: gold;
+}
+#div_shows h2 {
+  text-align: center;
+}
+#div_shows table {
+  border: solid silver;
+  border-collapse: collapse;
+  margin: auto;
+}
+#div_shows td {
+ padding: 0.5rem;
+}
+#div_shows tr:hover {
+ background-color: #CA3E47;
+ color: #313131;
+}
+#div_user_contact {
+  border: solid #525252;
+  width: 20%;
+  margin: 2% auto;
+  padding: 2rem;
+}
+#div_user_contact input, textarea {
+  background-color: silver;
+  color: white;
+  border:  0.1rem solid white;
+  padding: 0.4rem;
+  margin: 0.4rem 0;
+}
+
+#div_user_contact input[type="submit"] {
+  background-color: #CA3E47;
+  font-family: Rajdhani, sans-serif;
+  font-size: 1.2rem;
+}
+#div_user_contact h2 {
+  text-decoration-line: underline;
+  text-align: center;
+  margin: auto;
+}
+#contact_info h2 {
+  text-decoration-line: underline;
+  width: 25%;
+}
+
