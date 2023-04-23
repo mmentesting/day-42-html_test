@@ -11,7 +11,7 @@ body {
   margin: 2% auto 0;
   text-align: center;
 }
-#div_header img {
+.header_logo {
   height: 150px;
   display: block;
   margin: auto;
