@@ -13,7 +13,7 @@
   </head>
   <body>
     <div id="div_header">
-      <img class="header_logo" src="images/wwlogow.png" alt="'walkways logo">
+      <img src="images/wwlogow.png" alt="'walkways logo">
       <p><em>genre: <strong>Alternative Metal</strong></em></p>
       <p class="header_bio">Walkways is an alternative metal band based in Tel Aviv, Israel.
       The band is driven with a goal to keep sane and evolve into
@@ -21,7 +21,13 @@
       the soundtrack of the highs and falls of their lives.</p>
     </div>
     <br><hr>
-    <h2>Albums:</h2>
+    <nav id="div_navbar">
+      <a href="#discography">Discography</a>
+      <a href="#div_album_tracks">Albums</a>
+      <a href="#div_shows">Tour</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <h2 id="discography">Albums:</h2>
     <div id="div_albums">
       <div>
         <img src="images/wwbleedalbum.jpg" alt="album cover">
@@ -33,19 +39,17 @@
       </div>
     </div>
     <h2>Latest Singles:</h2>
-    <div id="div_singles">
-      <ul>
-        <li>Prove me Wrong (2023)</li>
-        <li>Scream (2023)</li>
-        <li>Unplugged at Yellow Submarine Club (2023)
-          <ul>
-            <li>Half The Man I Am</li>
-            <li>Bone Deep</li>
-            <li>Despair</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+    <ul>
+      <li>Prove me Wrong (2023)</li>
+      <li>Scream (2023)</li>
+      <li>Unplugged at Yellow Submarine Club (2023)
+        <ul>
+          <li>Half The Man I Am</li>
+          <li>Bone Deep</li>
+          <li>Despair</li>
+        </ul>
+      </li>
+    </ul>
     <br><hr>
     <div id="div_album_tracks">
       <div class="div_bleed">
@@ -110,6 +114,6 @@
       </table>
     </div>
     <br><hr>
-    <a href="contact.html" target="_blank"><h2>Contact Us</h2></a>
+    <a id="contact" href="contact.html" target="_blank"><h2>Contact Us</h2></a>
   </body>
 </html>
