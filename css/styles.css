@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #313131 ;
   color: #CA3E47;
@@ -5,17 +8,16 @@ body {
   font-size: 1.2rem;
 }
 #div_header {
-  width: 50%;
   margin: 2% auto 0;
   text-align: center;
 }
-.header_logo {
+#div_header img {
   height: 150px;
   display: block;
   margin: auto;
 }
 .header_bio {
-  width: 45%;
+  width: 25%;
   margin: auto;
   text-align: justify;
 }
@@ -23,6 +25,22 @@ hr {
   border: none;
   border-top: 0.25rem dashed silver;
   width: 25%;
+}
+#div_navbar {
+  background-color: #525252;
+  font-weight: 900;
+  margin: 2% auto 4%;
+  text-align: center;
+  width: 67%;
+}
+#div_navbar a:link {
+  color: #CA3E47;
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-decoration: none;
+}
+#div_navbar a:hover {
+  color: white;
 }
 h2 {
   font-family: Almendra, serif;
@@ -35,20 +53,17 @@ h2 {
 #div_albums p {
   display: inline-block;
 }
-#div_singles {
-    font-size: 1.2rem;
-}
 #div_album_tracks {
   height: 700px;
   width: 50%;
   margin: auto;
 }
 .div_bleed {
-  width: 50%;
+  width: 45%;
   float: left;
 }
 .div_safe {
-  width: 50%;
+  width: 45%;
   float: right;
 }
 h3, h4 {
@@ -59,7 +74,8 @@ h3, h4 {
   border: solid #525252;
   border-radius: 100%;
   height: 200px;
-  margin-left: 22.5%;
+  margin: auto 22.5%;
+
 }
 #div_album_tracks li {
   font-family: "Amatic SC", cursive;
